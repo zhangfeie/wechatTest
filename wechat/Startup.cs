@@ -40,7 +40,7 @@ namespace wechat
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            Console.WriteLine("1111");
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

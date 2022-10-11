@@ -21,6 +21,7 @@ namespace wechat
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    Console.WriteLine("1111111111111111");
                 });
     }
 }
